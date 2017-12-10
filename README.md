@@ -1,12 +1,12 @@
 # Overview
 
-The Qlik server-side extension protocol is built using [gRPC - An RPC library and framework](http://github.com/grpc/grpc).  To read more about gRPC, see [gRPC - A high performance, open-source universal RPC framework](http://www.grpc.io/). 
+The Qlik analytic connection protocol is built using [gRPC - An RPC library and framework](http://github.com/grpc/grpc).  To read more about gRPC, see [gRPC - A high performance, open-source universal RPC framework](http://www.grpc.io/). 
 
 Using gRPC provides a number of benefits:
 - The analytic connection plugin can be deployed on a computer other than the one Qlik is deployed on.
 - You can easily create analytic connection plugins in any of the languages that gRPC supports out of the box (over ten languages).
 
-The SSE protocol also makes use of [protocol buffers](https://developers.google.com/protocol-buffers/), Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. We have specified all default values according to [Optional Fields And Default Values](https://developers.google.com/protocol-buffers/docs/proto#optional).
+The analytic connection protocol also makes use of [protocol buffers](https://developers.google.com/protocol-buffers/), Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. We have specified all default values according to [Optional Fields And Default Values](https://developers.google.com/protocol-buffers/docs/proto#optional).
 
 The following diagram shows an example of SSE plugins communicating with Qlik:
 
