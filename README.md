@@ -8,7 +8,7 @@ Using gRPC provides a number of benefits:
 
 The analytic connection protocol also makes use of [protocol buffers](https://developers.google.com/protocol-buffers/), Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. We have specified all default values according to [Optional Fields And Default Values](https://developers.google.com/protocol-buffers/docs/proto#optional).
 
-The following diagram shows an example of SSE plugins communicating with Qlik:
+The following diagram shows an example of analytic connection plugins communicating with Qlik:
 
 ![](SSE_overview.png)
 
